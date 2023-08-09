@@ -50809,16 +50809,22 @@ break
 case 1:return A.G(q,r)
 case 2:return A.F(o,r)}})
 return A.H($async$kw,r)},
-lo(){var s=0,r=A.I(t.z),q=this,p,o
+lo(){var s=0,r=A.I(t.z),q=this,p,o,n,m
 var $async$lo=A.C(function(a,b){if(a===1)return A.F(b,r)
-while(true)switch(s){case 0:p=$.bg
-o=(p==null?$.bg=$.cQ():p).cN(0,"[DEFAULT]")
-A.bC(o,$.dd(),!0)
-p=A.h8(new A.bW(o))
+while(true)switch(s){case 0:m=q.y
+B.b.a2(m)
+p=q.z
+B.b.a2(p)
+o=$.bg
+n=(o==null?$.bg=$.cQ():o).cN(0,"[DEFAULT]")
+A.bC(n,$.dd(),!0)
+o=A.h8(new A.bW(n))
 s=2
-return A.B(A.hv(p,p.gdw().fu("workflows")).pD(0,"status","Pending").iE(0).aG(0,new A.au0(q),t.am),$async$lo)
-case 2:q.a5(new A.au1())
-A.dJ(q.y)
+return A.B(A.hv(o,o.gdw().fu("workflows")).pD(0,"status","Pending").iE(0).aG(0,new A.au0(q),t.am),$async$lo)
+case 2:m.push(A.ak(["id",q.a.c.h(0,"workflowId"),"approvers",q.a.c.h(0,"workflowApprovers")],t.N,t.z))
+p.push(q.a.c.h(0,"workflowType"))
+q.a5(new A.au1())
+A.dJ(m)
 return A.G(null,r)}})
 return A.H($async$lo,r)},
 vU(a){var s=0,r=A.I(t.z),q=this,p,o,n,m,l,k,j,i,h,g,f
